@@ -25,8 +25,8 @@ def get_random_rectangle():
     rectangle = (top left x, top left y, width, height)
     '''
 
-    x_pos = random.randint(1, WIDTH - 10)
-    y_pos = random.randint(1, HEIGHT - 10)
+    x_pos = random.randint(1, WIDTH - WIDTH/4)
+    y_pos = random.randint(1, HEIGHT - HEIGHT/4)
     width = random.randint(10, WIDTH - x_pos)
     height = random.randint(10, HEIGHT - y_pos)
 
@@ -34,9 +34,9 @@ def get_random_rectangle():
 
 
 PI = math.pi
-SIZE = WIDTH, HEIGHT = 1400, 1400
+SIZE = WIDTH, HEIGHT = 1500, 1500
 screen = pygame.display.set_mode(SIZE)
-IMAGES = 20
+IMAGES = 100
 x = 0
 
 while x < IMAGES:
@@ -58,8 +58,8 @@ while x < IMAGES:
 
     pygame.display.flip()
 
-    time.sleep(1)  # Display the beautiful artwork
+    time.sleep(0.2)  # Display the beautiful artwork
 
     x += 1
-    # pygame.image.save(screen, f"circasso{x}.jpeg")
+    pygame.image.save(screen, f"collection1/circasso{x}.jpeg")
     print(x)
