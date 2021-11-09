@@ -2,6 +2,7 @@ import random
 import time
 import sys
 import pygame
+import math
 import pandas as pd
 
 pygame.init()
@@ -16,9 +17,6 @@ def get_random_colour():
     g = random.randint(0, 255)
     b = random.randint(0, 255)
 
-    # colour = pd.DataFrame([random.choice([0, 1])
-    #                       for x in range(3)]) * pd.DataFrame([r, g, b])
-
     return (r, g, b)
 
 
@@ -27,15 +25,15 @@ def get_random_rectangle():
     rectangle = (top left x, top left y, width, height)
     '''
 
-    x_pos = random.randint(1, WIDTH - 100)
-    y_pos = random.randint(1, HEIGHT - 100)
+    x_pos = random.randint(1, WIDTH - 10)
+    y_pos = random.randint(1, HEIGHT - 10)
     width = random.randint(10, WIDTH - x_pos)
     height = random.randint(10, HEIGHT - y_pos)
 
     return (x_pos, y_pos, width, height)
 
 
-PI = 3.142
+PI = math.pi
 SIZE = WIDTH, HEIGHT = 1400, 1400
 screen = pygame.display.set_mode(SIZE)
 IMAGES = 20
@@ -48,7 +46,7 @@ while x < IMAGES:
 
     screen.fill(get_random_colour())
 
-    circles = random.randint(80, 120)
+    circles = random.randint(120, 150)
 
     for i in range(circles):
 
