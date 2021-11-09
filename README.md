@@ -20,3 +20,7 @@ Since each piece has 3 other rotated pieces, the rarity of each piece will follo
 ### Post split
 
 ![image](https://user-images.githubusercontent.com/69197760/140988877-fb50613c-48dd-4c87-a02e-93d46de5544e.png)
+
+### Final stitched images
+
+![image](https://user-images.githubusercontent.com/69197760/141021515-0c26ac33-6943-4029-ad18-2f930f7ac320.png)
