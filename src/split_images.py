@@ -1,6 +1,4 @@
 from PIL import Image
-import os
-
 
 for image_index in range(1, 101):
 

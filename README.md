@@ -11,7 +11,7 @@ Planned roadmap:
 
 The level of rarity of a particular piece will be determined by the sum of all 9 component pieces.
 
-Each component will have a rarity = 1/x * 1000 * (an additional rotation factor) where x is the index of the order of creation.
+Each component will have a rarity = 1/x * 1000 * (a rotation factor) * (a piece index factor), where x is the index of the order of creation.
 Since each piece has 3 other rotated pieces, the rarity of each piece will follow: [1, 1/3, 1/3, 2/3] where 90 degree rotated pieces are 1/3 the rarity of the original piece, and 180 degree rotated pieces are 2/3 the rarity of the original piece.
 
 ### First generated collection. (Pre-split)
