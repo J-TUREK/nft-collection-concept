@@ -7,3 +7,5 @@ Planned roadmap:
 2. Split the pieces of artwork into X pieces.
 3. Generate the collection using unique conbinations of the pieces.
 4. Integrate the collection with an NFT network
+
+![image](https://user-images.githubusercontent.com/69197760/140965241-1b179c55-ed0f-4aa8-9685-f9700c412be2.png)
