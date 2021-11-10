@@ -46,7 +46,7 @@ while x < IMAGES:
 
     screen.fill(get_random_colour())
 
-    circles = random.randint(120, 150)
+    circles = random.randint(600, 1000)
 
     for i in range(circles):
 
